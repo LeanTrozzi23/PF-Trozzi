@@ -1,0 +1,25 @@
+.main1{
+    background-color: $bgFondo;
+    border-radius: 15px;
+    border: white solid 2px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+     .imgpag2{
+         width: 300px;
+         padding: 5px;
+         margin: 25px;
+         height: 300px;
+         border-radius: 10px;
+         }
+         .imgpag2:hover{
+            transform: scale(1.1,1.1);
+            margin: 15px;
+            transition: all 1s;
+         }
+    
+}

@@ -1,0 +1,14 @@
+.main5{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    form{
+        width: 500px;
+        padding: 20px;
+        border: white 2px solid;
+        border-radius: 10px;
+        background-color: $bgFondo;
+    }
+}

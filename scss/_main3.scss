@@ -1,0 +1,35 @@
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+.imgshow{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: white 2px solid;
+    margin: 10px;
+    opacity: .6;
+}
+.imgshow:hover{
+    border: solid white 3px;
+    opacity: 1;
+    transform: scale(1.1,1.1);
+    margin: 15px;
+    transition: all 1s;
+}
+.iframe-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    }
+    iframe{
+       width: 400px;
+       height: 250px;
+       margin: 10px;
+    }
+}

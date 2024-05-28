@@ -1,0 +1,27 @@
+header{
+    .duki-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .duki-imglogo{
+        width: 100px;
+        margin: 20px;
+        border-radius: 15px;
+     }
+     .container-nav{
+        display: flex;
+        justify-content: center;
+         .bgrosa{
+            background-color: $bgFondo;
+            border-radius: 15px; 
+            border: white solid 2px;
+         }
+        
+         .nav-item:hover{
+            color: black;
+            background-color: pink;
+            border-radius: 50%;
+         }
+     }
+ }

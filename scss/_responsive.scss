@@ -1,0 +1,75 @@
+@media screen and (max-width:768px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 3fr 1.5fr;
+        grid-template-rows: 0.5fr 2fr 1fr 1fr 0.5fr;
+        grid-template-areas:
+         "header header"
+         "main main"
+         "section1 section1"
+         "section2 section2"
+         "footer footer";
+    }
+    .perfil{
+        width: 150px;
+        height: 150px;
+    }
+    .perfil2{
+        display: none;
+    }
+    .perfil3{
+        width: 230px;
+        height: 150px;
+    }
+    form{
+        width: 75%;
+    }
+    .main2{
+        height: auto;
+    }
+ }
+@media screen and (max-width:480px){
+    .container{ 
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 3fr 1.5fr;
+        grid-template-rows: 0.5fr 2fr 1fr 1fr 0.5fr;
+        grid-template-areas:
+         "header header"
+         "main main"
+         "section1 section1"
+         "section2 section2"
+         "footer footer";
+    }
+    .imgshow{
+        width: 350px;
+        height: 250px;
+    }
+    .youtubelogo{
+        width: 30px;
+    }
+    .spotify{
+        width: 30px;
+    }
+    .ig{
+        width: 30px;
+    }
+    .facebook{
+        width: 30px;
+    }
+    .twitter{
+        width: 30px;
+    }
+    .perfil{
+        width: 110px;
+        height: 100px;
+    }
+    .perfil3{
+        width: 120px;
+        height: 100px;
+    }
+    .perfil2{
+        display: none;
+    }
+}

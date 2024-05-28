@@ -1,0 +1,23 @@
+.header-index{
+    .divfotosperfil{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+        .perfil{
+           width: 300px;
+           margin: 10px;
+           height: 260px;
+        }
+        .perfil2{
+           width: 400px;
+           height: 260px;
+           margin: 5px;
+        }
+        .perfil3{
+           width: 400px;
+           height: 260px;
+           margin: 5px;
+        }
+    }
+}

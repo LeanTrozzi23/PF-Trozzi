@@ -1,0 +1,38 @@
+footer{
+    background-color: $bgFondo;
+    border: white solid 2px;
+    padding:10px;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    height: 150px;
+    border-radius: 15px;
+     .subir{
+        color: $bgLetra;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+    
+     }
+     .youtubelogo{
+         width: 50px;
+         margin: 5px;
+     }
+     .spotify{
+         width: 50px;
+         margin: 5px;
+     }
+     .ig{
+         width: 50px;
+         margin: 5px;
+         } 
+     .facebook{
+         width: 50px;
+         margin: 5px;
+         }
+     .twitter{
+         width: 50px;
+         margin: 5px;
+         }
+
+ }
