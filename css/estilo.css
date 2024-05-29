@@ -378,8 +378,7 @@ footer .twitter {
     display: none;
   }
   .perfil3 {
-    width: 230px;
-    height: 150px;
+    display: none;
   }
   form {
     width: 75%;
@@ -397,8 +396,8 @@ footer .twitter {
     grid-template-areas: "header header" "main main" "section1 section1" "section2 section2" "footer footer";
   }
   .imgshow {
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
   }
   .youtubelogo {
     width: 30px;
@@ -420,11 +419,13 @@ footer .twitter {
     height: 100px;
   }
   .perfil3 {
-    width: 120px;
-    height: 100px;
+    display: none;
   }
   .perfil2 {
     display: none;
+  }
+  form {
+    margin: 10px;
   }
 }
 
