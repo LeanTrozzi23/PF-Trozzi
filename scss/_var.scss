@@ -1,2 +1,12 @@
 $bgFondo:#ffc0cbac;
 $bgLetra: #381638;
+$bgLetraNegra: black;
+
+@mixin cajas ($bg, $color, $margin){
+    background-color: $bg;
+    color:$color;
+    border-radius: 15px;
+    border: white solid 2px;
+    margin: $margin;
+
+}

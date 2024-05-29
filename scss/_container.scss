@@ -20,9 +20,7 @@
     justify-content: center ;
     align-items: center;
        .bgrosa{
-           background-color: $bgFondo ;
-           border-radius: 15px; 
-           border: white solid 2px;
+           @include cajas ($bgFondo,$bgLetra,10px);
        }
       
        .nav-item:hover{
@@ -33,10 +31,7 @@
 }
  .main4{ 
     grid-area: main;
-    background-color: $bgFondo;
-    border: white solid 2px;
-    border-radius: 15px;
-    margin: 10px;
+    @include cajas ($bgFondo,$bgLetraNegra,10px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -62,13 +57,9 @@
     }
  .section1{
      grid-area: section1;
-     background-color: $bgFondo;
-     border: white solid 2px;
-     border-radius: 15px;
-     margin: 10px;
+     @include cajas ($bgFondo,$bgLetraNegra,10px);
     .h3-section{
         text-align: center;
-        color: black;
     }
    .h4-section{
         text-align: center;
@@ -90,10 +81,7 @@
  
  .section2{
     grid-area: section2;
-    background-color: $bgFondo;
-    border: white solid 2px;
-    border-radius: 15px;
-    margin: 10px;
+    @include cajas ($bgFondo,$bgLetraNegra,10px);
     .h3-section{
         text-align: center;
         color: black;
@@ -113,10 +101,7 @@
  
  .footer{
     grid-area: footer;
-    background-color: $bgFondo;
-    border: white solid 2px;
-    border-radius: 15px;
-    margin: 10px;
+    @include cajas ($bgFondo,$bgLetra,10px);
     padding:10px;
     height: 150px;
 }

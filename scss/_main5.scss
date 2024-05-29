@@ -10,5 +10,26 @@
         border: white 2px solid;
         border-radius: 10px;
         background-color: $bgFondo;
+        .button-estilo{
+            width: 100px;
+            padding: 5px;
+            color: black;
+            border-radius: 10px;
+            border: black solid 2px;
+            &:active {
+                background-color: $bgFondo;
+                color: white;
+            }
+          }
+        .button-enviar{
+            @extend .button-estilo;
+            background-color: white; 
+            border: $bgLetra solid 3px;
+        }
+        .button-reset{
+            @extend .button-estilo;
+            background-color: white;
+            border: red solid 3px;
+        }
     }
 }
