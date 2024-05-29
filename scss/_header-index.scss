@@ -8,16 +8,37 @@
            width: 300px;
            margin: 10px;
            height: 260px;
+           border-radius: 15px;
+           border: white 2px solid;
+        }
+        .perfil:hover{
+             transform: scale(1.1,1.1);
+             margin: 15px;
+             transition: all 1s;
         }
         .perfil2{
            width: 400px;
            height: 260px;
            margin: 5px;
+           border-radius: 15px;
+           border: white 2px solid;
+        }
+        .perfil2:hover{
+             transform: scale(1.1,1.1);
+             margin: 15px;
+             transition: all 1s;
         }
         .perfil3{
            width: 400px;
            height: 260px;
            margin: 5px;
+           border-radius: 15px;
+           border: white 2px solid;
+        }
+        .perfil3:hover{
+             transform: scale(1.1,1.1);
+             margin: 15px;
+             transition: all 1s;
         }
     }
 }
