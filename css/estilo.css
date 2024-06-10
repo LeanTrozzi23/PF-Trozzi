@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* VARIABLES */
+/* FUENTES Y FONDO DE PANTALLA*/
 body {
   background-image: url(../multimedia/fondo\ ameri.webp);
   background-position: center;
@@ -58,6 +61,7 @@ header .duki-imglogo:hover {
   transition: all 1s;
 }
 header .container-nav {
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -72,6 +76,7 @@ header .container-nav .nav-item:hover {
   border-radius: 50%;
 }
 
+/* HEADER DEL INDEX */
 .header-index .divfotosperfil {
   display: flex;
   flex-wrap: wrap;
@@ -115,6 +120,7 @@ header .container-nav .nav-item:hover {
   transition: all 1s;
 }
 
+/* MAIN DEL INDEX */
 .main-index {
   background-color: rgba(255, 192, 203, 0.6745098039);
   padding: 5px 10px;
@@ -128,6 +134,7 @@ header .container-nav .nav-item:hover {
   font-style: normal;
 }
 
+/* FOOTER */
 footer {
   background-color: rgba(255, 192, 203, 0.6745098039);
   color: #381638;
@@ -168,6 +175,7 @@ footer .twitter {
   margin: 5px;
 }
 
+/* MAIN DE LA DISCOGRAFÍA */
 .main1 {
   background-color: rgba(255, 192, 203, 0.6745098039);
   border-radius: 15px;
@@ -193,6 +201,7 @@ footer .twitter {
   transition: all 1s;
 }
 
+/* MAIN DE GALERÍA DE FOTOS */
 .main3 {
   display: flex;
   flex-wrap: wrap;
@@ -229,6 +238,7 @@ footer .twitter {
   margin: 10px;
 }
 
+/* GRID */
 .container {
   width: 100vw;
   height: 100vh;
@@ -354,6 +364,7 @@ footer .twitter {
   height: 150px;
 }
 
+/* MAIN DEL FORMULARIO */
 .main5 {
   color: rgb(0, 0, 0);
   display: flex;
@@ -388,6 +399,7 @@ footer .twitter {
   border: red solid 3px;
 }
 
+/* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
@@ -422,8 +434,8 @@ footer .twitter {
     grid-template-areas: "header header" "main main" "section1 section1" "section2 section2" "footer footer";
   }
   .imgshow {
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
   }
   .youtubelogo {
     width: 30px;

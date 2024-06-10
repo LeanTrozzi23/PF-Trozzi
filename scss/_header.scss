@@ -10,13 +10,14 @@ header{
         border-radius: 15px;
       }
       .duki-imglogo:hover{
-             transform: scale(1.1,1.1);
-             margin: 15px;
-             transition: all 1s;
+       transform: scale(1.1,1.1);
+       margin: 15px;
+       transition: all 1s;
       }
      .container-nav{
-        display: flex;
-        justify-content: center;
+       text-align: center;
+       display: flex;
+       justify-content: center;
          .bgrosa{
             background-color: $bgFondo;
             border-radius: 15px; 
